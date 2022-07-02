@@ -42,6 +42,25 @@ li {
   margin-right: 5px;
 }
 
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+  opacity: 0.05;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
