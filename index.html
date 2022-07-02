@@ -62,7 +62,9 @@
               />
               <div class="float-left">
                 <span class="temperature" id="temperature"></span
-                ><span class="units">°C | <a href="#"></a>°F</span>
+                ><span class="units"
+                  >°C |<a href="#" id="fahrenheit-link">°F</a></span
+                >
               </div>
             </div>
           </div>
@@ -70,8 +72,24 @@
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
-              <li>Percipatation: <span id="percipatation"></span>%</li>
+              
             </ul>
+          </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forcast-date">Thu</div>
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
+                  alt=""
+                  width="42"
+                  />
+                  <div class="weather-forecast-temperatures">             
+                
+                <span class="weather-forecast-temperature-max"> 18° </span>
+                <span class="weather-forecast-temperature-min"> 12° </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -85,7 +103,7 @@
         >
           Open-source Code,
         </a>
-        by Shayda Killebrew
+        by Shayda K.
       </small>
     </p>
     <script src="script.js"></script>
